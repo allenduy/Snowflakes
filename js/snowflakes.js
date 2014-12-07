@@ -29,8 +29,7 @@ define(function(){
             this._minBranches = options.minBranches ? options.minBranches : 4;
             this._maxBranches = options.maxBranches ? options.minBranches : 10;
             this._color = options.color ? options.color : "rgb(145,238,250)";
-        }
-        else {
+        } else {
             this._minBranches = 4;
             this._maxBranches = 10;
             this._color = "rgb(145,238,250)";

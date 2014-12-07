@@ -1,0 +1,44 @@
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to   { -webkit-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes flip {
+  from { -webkit-transform: scaleY(0); }
+  to   { -webkit-transform: scaleX(1); }
+}
+
+.snowflake {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  -webkit-animation: spin 7s infinite linear;
+}
+
+svg {
+  width: 250px;
+  height: 250px;
+  -webkit-animation: flip 0.7s infinite alternate;
+}
+
+body, html {
+  height: 100%;
+  width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #8BD2DF;
+}
+
+.regenerate {
+  font-family: 'Vast Shadow';
+  position: absolute;
+  font-size: 50px;
+  font-color: red;
+  text-transform: uppercase;
+  z-index: 50;
+  color: red;
+  width: 1250px;
+  margin-top: 250px;
+  text-align: center;
+  cursor: pointer;
+}
