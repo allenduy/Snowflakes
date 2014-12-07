@@ -1,3 +1,3 @@
 Snowflakes
 ==========
-Mini (recreational) JavaScript Collaboration Project.
+Mini JavaScript Collaboration Project.
